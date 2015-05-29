@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA4653821B18399D00531BF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4653811B18399D00531BF3 /* AppDelegate.swift */; };
+		EA4653841B18399D00531BF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4653831B18399D00531BF3 /* ViewController.swift */; };
+		EA4653871B18399D00531BF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA4653851B18399D00531BF3 /* Main.storyboard */; };
+		EA4653891B18399D00531BF3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA4653881B18399D00531BF3 /* Images.xcassets */; };
+		EA46538C1B18399D00531BF3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA46538A1B18399D00531BF3 /* LaunchScreen.xib */; };
+		EA4653981B18399D00531BF3 /* TabesugitoruStopwatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4653971B18399D00531BF3 /* TabesugitoruStopwatchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA4653921B18399D00531BF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA4653741B18399D00531BF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA46537B1B18399D00531BF3;
+			remoteInfo = TabesugitoruStopwatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA46537C1B18399D00531BF3 /* TabesugitoruStopwatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabesugitoruStopwatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA4653801B18399D00531BF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA4653811B18399D00531BF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA4653831B18399D00531BF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA4653861B18399D00531BF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA4653881B18399D00531BF3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EA46538B1B18399D00531BF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EA4653911B18399D00531BF3 /* TabesugitoruStopwatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabesugitoruStopwatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA4653961B18399D00531BF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA4653971B18399D00531BF3 /* TabesugitoruStopwatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabesugitoruStopwatchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA4653791B18399D00531BF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA46538E1B18399D00531BF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA4653731B18399D00531BF3 = {
+			isa = PBXGroup;
+			children = (
+				EA46537E1B18399D00531BF3 /* TabesugitoruStopwatch */,
+				EA4653941B18399D00531BF3 /* TabesugitoruStopwatchTests */,
+				EA46537D1B18399D00531BF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA46537D1B18399D00531BF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA46537C1B18399D00531BF3 /* TabesugitoruStopwatch.app */,
+				EA4653911B18399D00531BF3 /* TabesugitoruStopwatchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA46537E1B18399D00531BF3 /* TabesugitoruStopwatch */ = {
+			isa = PBXGroup;
+			children = (
+				EA4653811B18399D00531BF3 /* AppDelegate.swift */,
+				EA4653831B18399D00531BF3 /* ViewController.swift */,
+				EA4653851B18399D00531BF3 /* Main.storyboard */,
+				EA4653881B18399D00531BF3 /* Images.xcassets */,
+				EA46538A1B18399D00531BF3 /* LaunchScreen.xib */,
+				EA46537F1B18399D00531BF3 /* Supporting Files */,
+			);
+			path = TabesugitoruStopwatch;
+			sourceTree = "<group>";
+		};
+		EA46537F1B18399D00531BF3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA4653801B18399D00531BF3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA4653941B18399D00531BF3 /* TabesugitoruStopwatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA4653971B18399D00531BF3 /* TabesugitoruStopwatchTests.swift */,
+				EA4653951B18399D00531BF3 /* Supporting Files */,
+			);
+			path = TabesugitoruStopwatchTests;
+			sourceTree = "<group>";
+		};
+		EA4653951B18399D00531BF3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA4653961B18399D00531BF3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA46537B1B18399D00531BF3 /* TabesugitoruStopwatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA46539B1B18399D00531BF3 /* Build configuration list for PBXNativeTarget "TabesugitoruStopwatch" */;
+			buildPhases = (
+				EA4653781B18399D00531BF3 /* Sources */,
+				EA4653791B18399D00531BF3 /* Frameworks */,
+				EA46537A1B18399D00531BF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabesugitoruStopwatch;
+			productName = TabesugitoruStopwatch;
+			productReference = EA46537C1B18399D00531BF3 /* TabesugitoruStopwatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA4653901B18399D00531BF3 /* TabesugitoruStopwatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA46539E1B18399D00531BF3 /* Build configuration list for PBXNativeTarget "TabesugitoruStopwatchTests" */;
+			buildPhases = (
+				EA46538D1B18399D00531BF3 /* Sources */,
+				EA46538E1B18399D00531BF3 /* Frameworks */,
+				EA46538F1B18399D00531BF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA4653931B18399D00531BF3 /* PBXTargetDependency */,
+			);
+			name = TabesugitoruStopwatchTests;
+			productName = TabesugitoruStopwatchTests;
+			productReference = EA4653911B18399D00531BF3 /* TabesugitoruStopwatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA4653741B18399D00531BF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Mikito Kanamori";
+				TargetAttributes = {
+					EA46537B1B18399D00531BF3 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					EA4653901B18399D00531BF3 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = EA46537B1B18399D00531BF3;
+					};
+				};
+			};
+			buildConfigurationList = EA4653771B18399D00531BF3 /* Build configuration list for PBXProject "TabesugitoruStopwatch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA4653731B18399D00531BF3;
+			productRefGroup = EA46537D1B18399D00531BF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA46537B1B18399D00531BF3 /* TabesugitoruStopwatch */,
+				EA4653901B18399D00531BF3 /* TabesugitoruStopwatchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA46537A1B18399D00531BF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA4653871B18399D00531BF3 /* Main.storyboard in Resources */,
+				EA46538C1B18399D00531BF3 /* LaunchScreen.xib in Resources */,
+				EA4653891B18399D00531BF3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA46538F1B18399D00531BF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA4653781B18399D00531BF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA4653841B18399D00531BF3 /* ViewController.swift in Sources */,
+				EA4653821B18399D00531BF3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA46538D1B18399D00531BF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA4653981B18399D00531BF3 /* TabesugitoruStopwatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA4653931B18399D00531BF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA46537B1B18399D00531BF3 /* TabesugitoruStopwatch */;
+			targetProxy = EA4653921B18399D00531BF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA4653851B18399D00531BF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA4653861B18399D00531BF3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA46538A1B18399D00531BF3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA46538B1B18399D00531BF3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA4653991B18399D00531BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA46539A1B18399D00531BF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA46539C1B18399D00531BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TabesugitoruStopwatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EA46539D1B18399D00531BF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TabesugitoruStopwatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EA46539F1B18399D00531BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TabesugitoruStopwatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabesugitoruStopwatch.app/TabesugitoruStopwatch";
+			};
+			name = Debug;
+		};
+		EA4653A01B18399D00531BF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TabesugitoruStopwatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabesugitoruStopwatch.app/TabesugitoruStopwatch";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA4653771B18399D00531BF3 /* Build configuration list for PBXProject "TabesugitoruStopwatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA4653991B18399D00531BF3 /* Debug */,
+				EA46539A1B18399D00531BF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA46539B1B18399D00531BF3 /* Build configuration list for PBXNativeTarget "TabesugitoruStopwatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA46539C1B18399D00531BF3 /* Debug */,
+				EA46539D1B18399D00531BF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA46539E1B18399D00531BF3 /* Build configuration list for PBXNativeTarget "TabesugitoruStopwatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA46539F1B18399D00531BF3 /* Debug */,
+				EA4653A01B18399D00531BF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA4653741B18399D00531BF3 /* Project object */;
+}
